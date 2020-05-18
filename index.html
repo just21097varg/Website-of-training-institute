@@ -1,0 +1,104 @@
+﻿<html>
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Solutions</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="cs.css">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+ <body class="b" onload=display_ct();>
+  <span id='copy' ></span>
+  <h2 class="name"><center>DIGITAL SOLUTIONS&trade;</center><marquee class="mark">Welcome to Digital Labs</marquee></h2>
+  
+   <header id="header">
+    <ul class="list">
+     <li><i class="fa fa-home" style="color:black"></i> <a class="link" href="index.html">HOME</a></li>
+     <li><i class="fa fa-info-circle" style="color:black"></i><a class="link" href="about.html"> ABOUT</a></li>
+     <li><i class="fa fa-gear" style="color:black"></i> SERVICES <i id="down" class="fa fa-angle-down" style="color:black">
+      <div class="dropdown">
+       <a href="#">Websites</a>
+       <a href="#">Software</a>
+       <a href="#">Mobile Application</a>
+      </div></i></li>
+     <li><i class="fa fa-search" style="color:black"></i> CAREERS <i id="down" class="fa fa-angle-down" style="color:black">
+      <div class="dropdown">
+       <a href="training.html">Training</a>
+       <a href="internship.html">Internship</a>
+       <a href="jobs.html">Jobs</a>
+      </div></i></li>
+     <li><i class="fa fa-lock" style="color:black"></i><a class="link" href="contact.html"> ACCOUNT</a></li>
+     <li><i class="fa fa-phone" style="color:black"></i><a class="link" href="contact.html"> CONTACT</a></li>
+    </ul>
+   </header>
+ 
+  <br><br>  
+
+  <h1><u>TECHNOLOGIES</u></h1><br>
+   <div class="slideshow-container">
+    <div class="mySlides fade">  
+
+  <p><img src="images/java.jpg" style="width:400px;height=400px">
+  Java was originally developed by James Gosling at Sun Microsystems. 
+  Java is a general-purpose programming language that is class-based,
+  object-oriented, and designed to have as few implementation dependencies as possible. 
+  <br><br>*Java works on different platforms (Windows, Mac, Linux,etc.)
+  <br>*It is one of the most popular programming language in the world
+  <br>*It is easy to learn and simple to use
+  <br>*It is open-source and free
+  <br>*It is secure, fast and powerful</p></div>
+  <div class="mySlides fade"> 
+
+  <p><img src="images/python.jpg" style="width:350px;height=450px">
+  Python is an interpreted, high-level, general-purpose programming 
+  language. Created by Guido van Rossum and first released in 1991, 
+  Python's design philosophy emphasizes code readability through use of significant whitespace.
+  <br><br>*Python is a widely used general-purpose, high-level programming language.
+  <br>*Python allows programming in Object-Oriented and Procedural paradigms.
+  <br>*Python programs generally are smaller than other programming languages like Java. 
+  <br>*Python language is being used by companies like – Google, Amazon, Facebook, Instagram, etc.</p>
+  </div>
+  <div class="mySlides fade"> 
+
+  <p><img src="images/web.jpg" style="width:400px;height=400px">
+  Web development broadly refers to the tasks associated with 
+  developing websites for hosting via intranet or internet. <br><br>The web 
+  development process includes web design, web content development, 
+  client-side/server-side scripting and network security configuration, among other tasks.
+  <br><br>Front-end development refers to constructing what a user sees when they load a web application – the content, design and how you interact with it. This is done with three codes – HTML, CSS and JavaScript.</p>
+   
+   </div><hr>
+   <div style="text-align:center">
+    <span class="dot"  onclick="currentSlide(1)"></span> 
+    <span class="dot"  onclick="currentSlide(2)"></span> 
+    <span class="dot"  onclick="currentSlide(3)"></span> 
+   </div><hr>
+  </div>
+
+  <script>
+    var slideIndex = 0;
+    showSlides();
+  </script><br><br><br><br><br>
+ 
+  <footer id="footer">
+   <ul class="foot">
+    <li> Connect with us:</li>
+    <li>
+     <li><a href="https://www.facebook.com" ><i class="fa fa-facebook-square" style="color:blue;font-size:40px"></i></a></li>
+     <li><a href="https://www.google.com"><i class="fa fa-google" style="color:red;font-size:40px"></i></a></li>
+     <li><a href="https://www.twitter.com"><i class="fa fa-twitter" style="color:lightblue;font-size:40px"></i></a></li>
+     <li><a href="https://www.whatsapp.com"><i class="fa fa-whatsapp" style="color:darkgreen;font-size:40px"></i></a></li>
+     <li><a href="tel:"><i class="fa fa-phone" style="color:black;font-size:40px"></i></a></li>
+     <li><a href="gmail:"><i class="fa fa-envelope" style="color:black;font-size:40px"></i></a></li>
+    </li>
+   </ul> <hr>
+   <ul class="foot">
+     <li>Locate us:</li><br>
+     <li> <div id="map"></div></li>
+   </ul>
+   <script sync defer
+    src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initMap">
+   </script>
+   <div id="copy">Copyright &copy; 2019 Software Solutions. All Rights Reserved&reg;.</div>
+  </footer>
+ </body>
+</html> 

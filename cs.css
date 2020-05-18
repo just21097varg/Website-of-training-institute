@@ -1,0 +1,313 @@
+#header
+{
+  text-align:center;
+  padding:2px;
+  background-image: url("images/digital.jpg ");
+  line-height:40px;
+}
+
+
+#footer
+{
+  background-color:gray;
+  text-align:left;
+  color:white;
+  margin-top:40px;
+  padding:10px 0;
+}
+
+
+#link
+{
+ border:10px;
+}
+
+#map 
+{
+       width:1200px;
+       height:200px; 
+       margin-left:50px;
+}
+
+
+
+
+.foot>li
+{
+  padding:0 30px;
+  display:inline;
+  font-size:20px;
+}
+
+#copy
+{
+  font-weight:bold;
+  text-align:center;
+  background-color:green;
+  color:white;
+}
+
+.form
+{
+  display:inline;
+}
+
+.name
+{
+  font-family:cursive;
+  font-style:oblique;
+  font-size:50px;
+  color:white;
+  margin-top:3px;
+  margin-bottom:5px;
+  background-image: url("images/digital1.jpg ");
+}
+
+.mark
+{
+  font-family:fantasy;
+  font-style:italic;
+  font-size:30px;
+  color:yellow;
+}
+
+.dropdown{
+  display: none;
+  position:absolute;
+  background-color: white;
+  min-width: auto;
+  z-index: 1;
+  margin-top:auto;
+}
+
+.dropdown a {
+  color: black;
+  padding: 10px 10px;
+  display: block;
+  text-align:left;
+  text-decoration:none;
+  background-color: white;
+}
+
+.dropdown a:hover 
+{
+  color: green;
+}
+
+.list>li:hover .dropdown {display: block;}
+
+.list>li:hover #down {background-color: white;}
+
+a
+{
+  font-size:20px;
+  font-family:fantasy;
+  color:black;
+}
+.list>li,.link
+{
+ text-decoration:none;
+ 
+        color:black;
+	padding: 10px 20px;
+	line-height: 60px;
+	display: inline;
+	cursor: pointer;
+        font-size:22px;
+        background-color:lightblue;
+        
+        font-family:cursive;
+}
+
+
+
+
+.link:hover,.list>li:hover
+{
+  font-size:30px;
+  color:red;
+}
+
+
+
+ 
+.ul
+{
+ display:inline;
+}
+
+
+p>img
+{
+ float:right;
+}
+
+* 
+{
+  box-sizing: border-box;
+}
+
+body 
+{
+  font-family: Verdana, sans-serif; 
+  margin:0
+}
+
+.mySlides 
+{
+  display: none;
+}
+
+img 
+{
+  vertical-align: middle;
+}
+
+
+.slideshow-container 
+{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  display:block;
+}
+
+
+.prev, .next
+{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next 
+{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover
+{
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+
+
+.active, .dot:hover 
+{
+  background-color: #717171;
+}
+
+h1
+{
+ font-family:cursive;
+ margin-left:100px;
+}
+
+.b
+{
+ background-color:lightgreen;
+}
+
+form 
+{
+  background-color:lightblue; 
+  margin: 5px 5px;
+  width: 350px;
+  padding: 1em;
+  border: 5px solid blue;
+  border-radius: 2em;  
+}
+
+form div + div
+{
+  margin-top: 2em;
+}
+
+label 
+{
+  display: inline;
+  width: 90px;
+  text-align: right;
+}
+
+input[type=text],input[type=email],
+input[type=password],
+input[type=tel],textarea
+{
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus, 
+textarea:focus 
+{
+  border-color: #000;
+}
+
+
+.button 
+{
+ margin-left:1000px;
+ padding:10px 10px;
+ background-color:orange;
+ font-size:20px;
+ cursor:pointer;
+}
+
+
+.form1
+{
+  background-color:lightblue; 
+  margin:auto;
+  width: 350px;
+}
+
+p
+{
+  margin-left:100px;
+  margin-right:100px;
+  font-style:italic;
+  font-family:cursive;
+}
+
+dt
+{
+ font-size:30px;
+ margin-left:50px;
+}
+
+dd
+{
+ font-size:20px;
+ margin-left:60px;
+}
+
+.blink 
+{
+      animation: blinker 0.6s linear infinite;
+      color: #1c87c9;
+      font-size: 30px;
+      font-weight: bold;
+      font-family: sans-serif;
+      font-style:italic;
+}
+   
+@keyframes blinker 
+{  
+      50% { opacity: -1; }
+}

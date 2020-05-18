@@ -1,0 +1,100 @@
+<html>
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Solutions</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="cs.css">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+ <body class="b" onload=display_ct();>
+  <span id='copy' ></span>
+  <h2 class="name"><center>DIGITAL SOLUTIONS&trade;</center><marquee class="mark">Welcome to Digital Labs</marquee></h2>
+  
+  <header id="header">
+   <ul class="list">
+    <li><i class="fa fa-home" style="color:black"></i><a class="link" href="index.html"> HOME</a></li>
+    <li><i class="fa fa-info-circle" style="color:black"></i><a class="link" href="about.html"> ABOUT</a></li>
+    <li><i class="fa fa-gear" style="color:black"></i> SERVICES <i id="down" class="fa fa-angle-down" style="color:black">
+     <div class="dropdown">
+      <a href="#">Websites</a>
+      <a href="#">Software</a>
+      <a href="#">Mobile Application</a>
+     </div></i></li>
+    <li><i class="fa fa-search" style="color:black"></i> CAREERS <i id="down" class="fa fa-angle-down" style="color:black">
+     <div class="dropdown">
+      <a href="training.html">Training</a>
+      <a href="internship.html">Internship</a>
+      <a href="jobs.html">Jobs</a>
+     </div></i></li>
+    <li><i class="fa fa-lock" style="color:black"></i><a class="link" href="login.html">ACCOUNT</a></li>
+    <li><i class="fa fa-phone" style="color:black"></i><a class="link" href="contact.html"> CONTACT</a></li>
+   </ul>
+  </header>
+  
+  <br>
+ 
+  <form style="width:30%;height:150%;margin-down:100px;margin-left:500px;">
+   <center style="font-style:bold;font-size:30px">Register</center><br>
+    <label>First Name:</label><br><input  type="text" required><br><br>
+    <label>Middle Name:</label><br><input type="text" ><br><br>
+    <label>Last Name:</label><br><input type="text" required><br><br>
+    <label>DOB:</label><br><input type="date" required><br><br>
+    <label>Mobile:</label><br><input type="tel" required><br><br>
+    <label>Gender:</label><br><br>
+      <input type="radio" name="gender">MALE<br>
+      <input type="radio" name="gender">FEMALE<br>
+      <input type="radio" name="gender">OTHERS<br><br>
+    <label>Country: </label>
+     <select>
+       <option>SELECT</option>
+       <option>Auckland</option>
+       <option>Algeria</option>
+       <option>Canada</option>
+       <option>India</option>
+       <option>USA</option>
+       <option>Dubai</option>
+       <option>Germany</option>
+       <option>Italy</option>
+       <option>China</option>
+       <option>Malaysia</option>
+       <option>Saudi Arabia</option>
+       <option>France</option>
+       <option>North Carolina</option>
+     </select><br><br>
+    <label>E-mail:</label><br><input type="email" placeholder="Example:abc@gmail.com" required><br><br>
+    <label>Confirm E-mail:</label><br><input type="email" required><br><br>
+    <label>Username:</label><input type="text" required><br><br>
+    <label>Password:</label><input type="password" required><br><br>
+    <label>Confirm Password:</label><input type="password" required><br><br><br>
+    <a href="signup.html"><button type="submit" style="float:left;width:100px;height:30px;">Register</button></a><br><br> 
+    <a href="login.html"><button type="button" style="float:left;width:100px;height:30px;">Login</button></a><b style="color:red;">Already Registered?</b> 
+  </form>
+  
+  <footer id="footer">
+   <ul class="foot">
+    <li> Connect with us:</li>
+    <li>
+     <li><a href="https://www.facebook.com" ><i class="fa fa-facebook-square" style="color:blue;font-size:40px"></i></a></li>
+     <li><a href="https://www.google.com"><i class="fa fa-google" style="color:red;font-size:40px"></i></a></li>
+     <li><a href="https://www.twitter.com"><i class="fa fa-twitter" style="color:lightblue;font-size:40px"></i></a></li>
+     <li><a href="https://www.whatsapp.com"><i class="fa fa-whatsapp" style="color:darkgreen;font-size:40px"></i></a></li>
+     <li><a href="tel:"><i class="fa fa-phone" style="color:black;font-size:40px"></i></a></li>
+     <li><a href="gmail:"><i class="fa fa-envelope" style="color:black;font-size:40px"></i></a></li>
+    </li>
+   </ul> 
+  
+   <hr>
+   
+   <ul class="foot">
+     <li>Locate us:</li><br>
+     <li> <div id="map"></div></li>
+   </ul>
+   
+   <script sync defer
+    src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initMap">
+   </script>
+   
+   <div id="copy">Copyright &copy; 2019 Software Solutions. All Rights Reserved&reg;.</div>
+  </footer>
+ </body>
+</html> 
